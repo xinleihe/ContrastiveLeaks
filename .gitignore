@@ -1,0 +1,19 @@
+#folders
+data/
+runs/
+script/
+save/
+log/
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+data_aug/__pycache__/*
+*.py[cod]
+
+# models
+*.pth
+*.cpython*
+
+#files
+core
