@@ -1,6 +1,8 @@
 # ContrastiveLeak
 
-CUDA_VISIBLE_DEVICES=5 python3 ce_classifier.py --batch_size 512 --dataset CIFAR10 --model resnet18 --mode shadow --data_path /home/xinlei.he/simclr/data/
+This is a PyTorch implementation of Quantifying and Mitigating Privacy Risks of Contrastive Learning, as described in our paper:
+
+Xinlei He and Yang Zhang, Quantifying and Mitigating Privacy Risks of Contrastive Learning (CCS 2021)
 
 ## Train contrastive classifiers:
 
@@ -75,3 +77,17 @@ python3 OL_adv_SimCLR.py --batch_size 512 --dataset UTKFace --model resnet18  --
 
 
 
+## Cite
+
+Please cite our paper if you use this code in your own work:
+
+```
+@inproceedings{HZ21,
+author = {Xinlei He and Yang Zhang},
+title = {{Quantifying and Mitigating Privacy Risks of Contrastive Learning}},
+booktitle = {{ACM SIGSAC Conference on Computer and Communications Security (CCS)}},
+pages = {845-863},
+publisher = {ACM},
+year = {2021}
+}
+```
